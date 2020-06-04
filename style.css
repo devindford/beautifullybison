@@ -81,19 +81,19 @@ header {
 }
 
 .order-now {
-  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
   padding: 2rem 4.5rem;
   border-radius: 2.5rem;
-  background: #d0223b;
+  color: #d0223b;
   font-family: "Risque", cursive;
   font-size: 2.2rem;
   outline: none;
-  border: none;
+  border: 0.2rem solid #d0223b;
   cursor: pointer;
 }
 
 .order-now:hover {
-  background: rgb(255, 255, 255);
-  color: #d0223b;
+  color: rgb(255, 255, 255);
+  background: #d0223b;
   transition: 0.4s ease-in-out;
 }
