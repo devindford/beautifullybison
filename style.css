@@ -11,15 +11,13 @@ html {
 }
 
 body {
-  background: url("./img/Background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* *Main Nav */
 
 header {
   height: 10vh;
+  background: #b1b2b6;
 }
 
 .main-nav {
@@ -64,7 +62,12 @@ header {
 /* *Main Section */
 
 .hero {
-  height: 90vh;
+  min-height: 90vh;
+  background: url("./img/Background.png");
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
